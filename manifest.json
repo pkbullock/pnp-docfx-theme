@@ -1,0 +1,236 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "../scripts/_template-script-submission/**.md": {
+        "baseUrl": "https://pkbullock.github.io/pnp-docfx-theme/",
+        "changefreq": "never",
+        "priority": 0.1
+      }
+    },
+    "baseUrl": "https://pkbullock.github.io/pnp-docfx-theme/",
+    "changefreq": "daily",
+    "priority": 1.0
+  },
+  "source_base_path": "/home/runner/work/pnp-docfx-theme/pnp-docfx-theme/main/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../scripts/modernize-blog-pages/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "modernize-blog-pages/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-blog-pages/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-blog-pages/assets/example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-blog-pages/assets/modern-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-blog-pages/assets/modern-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-blog-pages/assets/placeholder.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-blog-pages/assets/placeholder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-blog-pages/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-blog-pages/assets/preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-blog-pages/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-blog-pages/assets/sample.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../scripts/modernize-bulk-publishing-pages/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "modernize-bulk-publishing-pages/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-bulk-publishing-pages/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-bulk-publishing-pages/assets/example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-bulk-publishing-pages/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-bulk-publishing-pages/assets/preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-bulk-publishing-pages/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-bulk-publishing-pages/assets/sample.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/placeholder.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/placeholder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/sample.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/transform.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/transform.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/modernize-classic-pages-from-publishing-sites/assets/transform.png",
+      "output": {
+        "resource": {
+          "relative_path": "modernize-classic-pages-from-publishing-sites/assets/transform.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "404.html",
+      "output": {
+        "resource": {
+          "relative_path": "404.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

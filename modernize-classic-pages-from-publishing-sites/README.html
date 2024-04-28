@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Modernizing classic pages from on-premises sites | PnP Modern Theme for DocFx Sites </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Modernizing classic pages from on-premises sites | PnP Modern Theme for DocFx Sites ">
+    <meta name="description" content="A sample gallery for all things Microsoft 365.">
+    
+      <link rel="shortcut icon" href="../https://c.s-microsoft.com/favicon.ico?v2">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../assets/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-12">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="modernizing-classic-pages-from-on-premises-sites">Modernizing classic pages from on-premises sites</h1>
+
+<h2 id="summary">Summary</h2>
+<p>This is a <strong>Modernizing classic pages from publishing sites</strong> example to show the conversion of an on-premises 2013 publishing page over to SharePoint Online modern sites - this includes the extraction of the mapping files and conversion process.</p>
+<p><img src="assets/transform.jpg" alt="Example Screenshot"></p>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_pnpps" role="tab" aria-controls="tabpanel_1_pnpps" data-tab="pnpps" tabindex="0" aria-selected="true">PnP PowerShell</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_pnppsv2" role="tab" aria-controls="tabpanel_1_pnppsv2" data-tab="pnppsv2" tabindex="-1">PnP PowerShell V2</a>
+</li>
+</ul>
+<section id="tabpanel_1_pnpps" role="tabpanel" data-tab="pnpps">
+
+<pre><code class="lang-powershell">
+#-----------------------------
+# Publishing Portal Commands
+#-----------------------------
+
+$sp13Conn = Connect-PnPOnline http://portal2013/en -Credentials OnPrem -ReturnConnection
+$spOnlineConn = Connect-PnPOnline https://contoso.sharepoint.com/sites/PnPKatchup -Credentials Online -ReturnConnection
+
+# Exporting Page Layout File
+#------------------------------
+# Example based on a page
+Export-PnPClientSidePageMapping `
+    -CustomPageLayoutMapping `
+    -PublishingPage &quot;Quality-Cherry-Cake.aspx&quot; `
+    -Folder &quot;C:\temp\Demo&quot; `
+    -Connection $sp13Conn
+
+# Example based to export all the layouts
+Export-PnPClientSidePageMapping `
+    -CustomPageLayoutMapping `
+    -Folder &quot;C:\temp\Demo&quot; `
+    -Connection $sp13Conn `
+    -BuiltInWebPartMapping
+
+
+# Transforming Page based on Exported Content
+#-----------------------------------------------
+ConvertTo-PnPClientSidePage -Identity &quot;Quality-Cherry-Cake.aspx&quot; -PublishingPage `
+    -TargetConnection $spOnlineConn -Connection $sp13Conn `
+    -Overwrite `
+    -PageLayoutMapping C:\temp\Demo\custompagelayoutmapping-f3629db3-3e4d-48c4-b904-6fffab6dbb65-quality-cherry-cake.xml `
+    -UserMappingFile C:\temp\Demo\usermapping.csv `
+    -UrlMappingFile C:\temp\Demo\urlmapping.csv `
+    -KeepPageCreationModificationInformation `
+    -DisablePageComments `
+    -LogType Console
+
+
+</code></pre>
+<div class="highlight-tool">
+<p>Check out the <strong>PnP PowerShell</strong> to learn more at: <a href="https://aka.ms/pnp/powershell">https://aka.ms/pnp/powershell</a></p>
+</div>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This script uses the older <a href="https://www.powershellgallery.com/packages/SharePointPnPPowerShellOnline/3.29.2101.0">SharePoint PnP PowerShell Online module</a></p>
+</div>
+</section>
+<section id="tabpanel_1_pnppsv2" role="tabpanel" data-tab="pnppsv2" aria-hidden="true" hidden="hidden">
+
+<pre><code class="lang-powershell">
+#-----------------------------
+# Publishing Portal Commands
+#-----------------------------
+
+$sp13Conn = Connect-PnPOnline http://portal2013/en -Credentials OnPrem -ReturnConnection -TransformationOnPrem
+$spOnlineConn = Connect-PnPOnline https://contoso.sharepoint.com/sites/PnPKatchup -Interactive -ReturnConnection
+
+# Exporting Page Layout File
+#------------------------------
+# Example based on a page
+Export-PnPPageMapping `
+    -CustomPageLayoutMapping `
+    -PublishingPage &quot;Quality-Cherry-Cake.aspx&quot; `
+    -Folder &quot;C:\temp\Demo&quot; `
+    -Connection $sp13Conn
+
+# Example based to export all the layouts
+Export-PnPPageMapping `
+    -CustomPageLayoutMapping `
+    -Folder &quot;C:\temp\Demo&quot; `
+    -Connection $sp13Conn `
+    -BuiltInWebPartMapping
+
+
+# Transforming Page based on Exported Content
+#-----------------------------------------------
+ConvertTo-PnPPage -Identity &quot;Quality-Cherry-Cake.aspx&quot; -PublishingPage `
+    -TargetConnection $spOnlineConn -Connection $sp13Conn `
+    -Overwrite `
+    -PageLayoutMapping C:\temp\Demo\custompagelayoutmapping-f3629db3-3e4d-48c4-b904-6fffab6dbb65-quality-cherry-cake.xml `
+    -UserMappingFile C:\temp\Demo\usermapping.csv `
+    -UrlMappingFile C:\temp\Demo\urlmapping.csv `
+    -KeepPageCreationModificationInformation `
+    -DisablePageComments `
+    -LogType Console
+
+
+</code></pre>
+<div class="highlight-tool">
+<p>Check out the <strong>PnP PowerShell</strong> to learn more at: <a href="https://aka.ms/pnp/powershell">https://aka.ms/pnp/powershell</a></p>
+</div>
+
+<div class="NOTE">
+<h5>Note</h5>
+<p>This script uses:</p>
+<ul>
+<li>the PnP.PowerShell module - tested with v1.9.0</li>
+<li>requires PowerShell 7 to run</li>
+</ul>
+</div>
+</section>
+</div>
+<h2 id="contributors">Contributors</h2>
+<table>
+<thead>
+<tr>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paul Bullock</td>
+</tr>
+</tbody>
+</table>
+<h2 id="disclaimer">Disclaimer</h2>
+<p><strong>THESE SAMPLES ARE PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
+<img src="https://m365-visitor-stats.azurewebsites.net/script-samples/scripts/modernize-classic-pages-from-publishing-sites" aria-hidden="true">
+
+</article>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      <span>Script Samples<br>Generated by <strong><a href='https://dotnet.github.io/docfx' alt='Doc FX Website'>DocFX</a></strong> with Custom Theme by PnP team</span>
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
