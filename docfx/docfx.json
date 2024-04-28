@@ -44,22 +44,21 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default",
-      "templates/material"
+      "default"
     ],
     "sitemap": {
-      "baseUrl": "https://pnp.github.io/script-samples/",
+      "baseUrl": "https://pkbullock.github.io/pnp-docfx-theme/",
       "priority": 1.0,
       "changefreq": "daily",
       "fileOptions":{
         "../scripts/_template-script-submission/**.md": {
-            "baseUrl": "https://pnp.github.io/script-samples/",
+            "baseUrl": "https://pkbullock.github.io/pnp-docfx-theme/",
             "changefreq": "never",
             "priority": 0.1
         }
     }
     },
-    "postProcessors": ["FrontMatterProcessor"],
+    "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
