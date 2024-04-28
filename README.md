@@ -1,2 +1,7 @@
-# pnp-docfx-theme
-Theme for PnP For new Modern Look with DocFx
+# Site for development of the Theme for PnP For new Modern Look with DocFx
+
+## DocFx Resources
+
+- Using the latest version (tested with 2.76.0) of DocFx located at https://github.com/dotnet/docfx
+- Download: https://github.com/dotnet/docfx/releases/tag/v2.76.0
+- Theme Documentation in DocFx: https://dotnet.github.io/docfx/docs/template.html?tabs=modern
