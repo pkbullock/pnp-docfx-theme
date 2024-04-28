@@ -30,14 +30,23 @@ jobs:
         ref: gh-pages
         path: gh-pages
     # Install docfx with version 2.76
-    - name: Install dependencies
-      run: |
-        wget https://github.com/dotnet/docfx/releases/download/v2.76.0/docfx-win-x64-v2.76.0.zip
-        sudo unzip docfx-win-x64-v2.76.0.zip -d /usr/local/lib/docfx
-        rm docfx-win-x64-v2.76.0.zip
-        echo '#!/bin/sh' | sudo tee -a /usr/local/bin/docfx > /dev/null
-        echo 'exec `which mono` $MONO_OPTIONS /usr/local/lib/docfx/docfx.exe "$@"' | sudo tee -a /usr/local/bin/docfx > /dev/null
-        sudo chmod +wx /usr/local/bin/docfx
+    - name: Get .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.x
+
+    - name: Install DocFX
+      run: dotnet tool install -g docfx
+
+    # old version    
+    # - name: Install dependencies
+    #   run: |
+    #     wget https://github.com/dotnet/docfx/releases/download/v2.76.0/docfx-win-x64-v2.76.0.zip
+    #     sudo unzip docfx-win-x64-v2.76.0.zip -d /usr/local/lib/docfx
+    #     rm docfx-win-x64-v2.76.0.zip
+    #     echo '#!/bin/sh' | sudo tee -a /usr/local/bin/docfx > /dev/null
+    #     echo 'exec `which mono` $MONO_OPTIONS /usr/local/lib/docfx/docfx.exe "$@"' | sudo tee -a /usr/local/bin/docfx > /dev/null
+    #     sudo chmod +wx /usr/local/bin/docfx
               
       # For plugins to work, this needs to be in place
       # sudo mkdir /usr/local/lib/docfx/plugins
