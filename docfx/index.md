@@ -1,5 +1,11 @@
 # Test Samples for DocFx Theme Testing
 
+## Sample Pages for testing (based on script samples)
+
+- [Modernize blog pages](../scripts/modernize-blog-pages/README.md)
+- [Modernize bulk publishing pages](../scripts/modernize-bulk-publishing-pages/README.md)
+- [Modernize Classic Pages from Publishing Sites](../scripts/modernize-classic-pages-from-publishing-sites/README.md)
+
 ## Formatting Examples
 
 
