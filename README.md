@@ -10,3 +10,4 @@
 
 - Stefen Bauer Theme: https://pnp.github.io/styleguide/?p=pages-landing-page
 - Hugo Bernier implementation for (Hugo.io): https://hugoabernier.github.io/pnp.github.io/
+- PnP Hugo Theme: https://github.com/pnp/pnp-hugo-theme

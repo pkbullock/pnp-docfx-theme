@@ -3,6 +3,10 @@
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
 
+cd src
+npm run styles
+cd ..
+
 # Download and copy docfx to the local folder: c:\git\docfx\2.76.0
 # Release: 
 c:\git\docfx\2.76.0\docfx build docfx.json --warningsAsErrors $args
