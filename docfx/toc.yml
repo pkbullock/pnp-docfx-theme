@@ -1,2 +1,8 @@
 - name: Scripts
   href: index.md
+- name: By Tool
+  href: index.md
+- name: By Product
+  href: index.md
+- name: PnP
+  href: index.md
