@@ -1,13 +1,35 @@
 # Test Samples for DocFx Theme Testing
 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, 
+sit amet commodo magna eros quis urna.
+
+Nunc **viverra imperdiet** enim. _Fusce est._ Vivamus a tellus.
+
 ## Sample Pages for testing (based on script samples)
 
 - [Modernize blog pages](../scripts/modernize-blog-pages/README.md)
 - [Modernize bulk publishing pages](../scripts/modernize-bulk-publishing-pages/README.md)
 - [Modernize Classic Pages from Publishing Sites](../scripts/modernize-classic-pages-from-publishing-sites/README.md)
 
-## Formatting Examples
+- [Get (or export) an existing site structure in a SharePoint Online tenant](../scripts/spo-get-existing-site-structure/README.md)
+- [Get Folder Item properties](../scripts/spo-get-folder-item/README.md)
+- [Get sharing links within the tenant](../scripts/spo-get-sharinglinks/README.md)
+- [Repair ID mismatch for user across all Sites](../scripts/spo-repair-user-idmismatch/README.md)
+- [Trim file versions and archive Site Collection using Microsoft365 Archive](../scripts/spo-trim-and-m365-archive-sitecollection/README.md)
+- [List apps within Teams in a tenant](../scripts/teams-list-installed-apps/README.md)
+- [Get notified in Microsoft Teams about SharePoint health incidents](../scripts/tenant-health-notify-teams/README.md)
 
+## Sample Introduction
+
+## Input Fields
+
+## Filters
+
+## Cards
+
+
+
+## Formatting Examples
 
 # Heading 1
 ## Heading 2
