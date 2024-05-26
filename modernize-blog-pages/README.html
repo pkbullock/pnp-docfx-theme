@@ -37,39 +37,33 @@
     <div id="wrapper" class="wrapper">
       <header class="page-header">
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
 
-              <!--
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../assets/logo.svg" alt="" >
-              </a>
-              -->
-
-              <a href="../index.html" class="site-logo-link">
-                <div class="site-logo">
-                  <span class="u-nowrap">Microsoft 365 &amp</span><br>
-                  <span class="u-nowrap ff-pp">Power Platform</span><br>
-                  <span class="u-nowrap ff-com">Community</span><br>
-                </div>
-              </a>            </div>
+        <a href="../index.html" class="site-logo-link">
+          <div class="site-logo">
+            <span class="u-nowrap">Microsoft 365 &amp</span><br>
+            <span class="u-nowrap ff-pp">Power Platform</span><br>
+            <span class="u-nowrap ff-com">Community</span><br>
+          </div>
+        </a>
+        <nav class="nav">
+           <button class="hamburger" tabindex="-1">
+              <svg class="active">
+                <title id="ham-title-active">Click to close - Hamburger in form of arrows</title>
+                <use xlink:href="../../images/base-assets.svg#hamburger"></use>
+              </svg>
+              <svg class="inactive">
+                <title id="ham-title-inactive">Click to open - Hamburger in form of three stripes</title>
+                <use xlink:href="../../images/base-assets.svg#hamburger-inactive"></use>
+              </svg>
+            </button>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
-          </div>
-        </nav>
-      </header>
+            </div> 
+        </nav>      </header>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
           <div class="col-md-12">
