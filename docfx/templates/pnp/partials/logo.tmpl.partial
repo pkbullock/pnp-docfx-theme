@@ -1,5 +1,15 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 
+<!--
 <a class="navbar-brand" href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}">
   <img id="logo" class="svg" src="{{_rel}}{{{_appLogoPath}}}{{^_appLogoPath}}logo.svg{{/_appLogoPath}}" alt="{{_appName}}" >
+</a>
+-->
+
+<a href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}" class="site-logo-link">
+  <div class="site-logo">
+    <span class="u-nowrap">Microsoft 365 &amp</span><br>
+    <span class="u-nowrap ff-pp">Power Platform</span><br>
+    <span class="u-nowrap ff-com">Community</span><br>
+  </div>
 </a>
