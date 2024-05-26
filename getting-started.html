@@ -14,15 +14,28 @@
       <link rel="stylesheet" href="styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="styles/docfx.css">
       <link rel="stylesheet" href="styles/main.css">
+
+      <link rel="stylesheet" href="styles/styles.css">
+      <link rel="stylesheet" href="styles/custom.css">
+      <link rel="prefetch" href="images/base-assets.svg" as="image" type="image/svg+xml" media="all">
+      <!-- Made with ❤️ by the PnP team -->
+      <!-- Design: Stefan Bauer (https://n8d.at/)-->
+      <!-- DocFx Theme by: Paul Bullock (https://pkbullock.com/)-->
+      <!-- Inspiration of site: Hugo Bernier (https://tahoeninja.blog/)-->
+
       <meta property="docfx:navrel" content="toc.html">
       <meta property="docfx:tocrel" content="toc.html">
     
     
     <meta property="docfx:newtab" content="true">
+
+      <!-- Insert Clarity Header Here - set as property in DocFx config file -->
+
+
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
+  <body data-spy="scroll" data-target="#affix" data-offset="120" class="pnp-backdrop">
+    <div id="wrapper" class="wrapper">
+      <header class="page-header">
 
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
@@ -34,10 +47,19 @@
                 <span class="icon-bar"></span>
               </button>
 
+              <!--
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="assets/logo.svg" alt="">
+                <img id="logo" class="svg" src="assets/logo.svg" alt="" >
               </a>
-            </div>
+              -->
+
+              <a href="index.html" class="site-logo-link">
+                <div class="site-logo">
+                  <span class="u-nowrap">Microsoft 365 &amp</span><br>
+                  <span class="u-nowrap ff-pp">Power Platform</span><br>
+                  <span class="u-nowrap ff-com">Community</span><br>
+                </div>
+              </a>            </div>
             <div class="collapse navbar-collapse" id="navbar">
               <form class="navbar-form navbar-right" role="search" id="search">
                 <div class="form-group">
@@ -106,5 +128,6 @@
     <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="styles/docfx.js"></script>
     <script type="text/javascript" src="styles/main.js"></script>
+    <script type="text/javascript" src="styles/main-pnp.js"></script>
   </body>
 </html>

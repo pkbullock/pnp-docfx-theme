@@ -205,6 +205,216 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 1.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 2.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 3.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 3.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 4.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 4.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 5.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 5.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 6.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 6.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Asset 7.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Asset 7.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/background.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/background.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/base-assets.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/base-assets.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hello-world.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/hello-world.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/keyart-bg.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/keyart-bg.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/noise.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/noise.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/parker-ms-logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/parker-ms-logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/parker-was-here.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/parker-was-here.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-background.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-background.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample-card-mock.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample-card-mock.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/side-bg-left copy.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/side-bg-left copy.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/side-bg-left.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/side-bg-left.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/side-bg-right.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/side-bg-right.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/side-bg.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/side-bg.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/teams_48x1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/teams_48x1.svg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
