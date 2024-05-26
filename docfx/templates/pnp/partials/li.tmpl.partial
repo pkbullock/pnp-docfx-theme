@@ -1,17 +1,17 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 
-<ul class="nav level{{level}}">
+<ul class="nav level{{level}} nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
   {{#items}}
     {{^dropdown}}
-      <li>
+      <li class="nav-item">
         {{^leaf}}
           <span class="expand-stub"></span>
         {{/leaf}}
         {{#topicHref}}
-          <a href="{{topicHref}}" name="{{tocHref}}" title="{{name}}">{{name}}</a>
+          <a href="{{topicHref}}" name="{{tocHref}}" title="{{name}}" class="nav-link">{{name}}</a>
         {{/topicHref}}
         {{^topicHref}}
-          <a>{{{name}}}</a>
+          <a class="nav-link">{{{name}}}</a>
         {{/topicHref}}
         {{^leaf}}
           {{>partials/li}}
