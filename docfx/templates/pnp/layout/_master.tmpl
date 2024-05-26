@@ -9,9 +9,9 @@
 <html {{#_lang}}lang="{{_lang}}"{{/_lang}}>
   {{>partials/head}}
   {{^redirect_url}}
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
+  <body data-spy="scroll" data-target="#affix" data-offset="120" class="pnp-backdrop">
+    <div id="wrapper" class="wrapper">
+      <header class="page-header">
         {{^_disableNavbar}}
         {{>partials/navbar}}
         {{/_disableNavbar}}
