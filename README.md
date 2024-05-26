@@ -9,5 +9,6 @@
 ## PnP Resources for new theme
 
 - Stefen Bauer Theme: https://pnp.github.io/styleguide/?p=pages-landing-page
+- Stefen Bauer Theme Source Files: https://github.com/pnp/styleguide
 - Hugo Bernier implementation for (Hugo.io): https://hugoabernier.github.io/pnp.github.io/
 - PnP Hugo Theme: https://github.com/pnp/pnp-hugo-theme
