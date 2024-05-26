@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="{{_rel}}styles/styles.css">
     <link rel="stylesheet" href="{{_rel}}styles/custom.css">
-
+    <link rel="prefetch" href="{{_rel}}images/base-assets.svg" as="image" type="image/svg+xml" media="all">
     <!-- Made with ❤️ by the PnP team -->
     <!-- Design: Stefan Bauer (https://n8d.at/)-->
     <!-- DocFx Theme by: Paul Bullock (https://pkbullock.com/)-->
