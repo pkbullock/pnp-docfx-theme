@@ -3,4 +3,4 @@
 <script type="text/javascript" src="{{_rel}}styles/docfx.vendor.min.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/main.js"></script>
-<script type="text/javascript" src="{{_rel}}js/main.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/main-pnp.js"></script>
