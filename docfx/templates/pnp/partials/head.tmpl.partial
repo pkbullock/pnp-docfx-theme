@@ -2,15 +2,6 @@
 
 <head>
   <meta charset="utf-8">
-  {{#_googleAnalyticsTagId}}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{_googleAnalyticsTagId}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', '{{_googleAnalyticsTagId}}');
-  </script>
-  {{/_googleAnalyticsTagId}}
   {{#redirect_url}}
     <meta http-equiv="refresh" content="0;URL='{{redirect_url}}'">
   {{/redirect_url}}
@@ -25,10 +16,23 @@
     <link rel="stylesheet" href="{{_rel}}styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="{{_rel}}styles/docfx.css">
     <link rel="stylesheet" href="{{_rel}}styles/main.css">
+
+    <link rel="stylesheet" href="{{_rel}}styles/styles.css">
+    <link rel="stylesheet" href="{{_rel}}styles/custom.css">
+
+    <!-- Made with ❤️ by the PnP team -->
+    <!-- Design: Stefan Bauer (https://n8d.at/)-->
+    <!-- DocFx Theme by: Paul Bullock (https://pkbullock.com/)-->
+    <!-- Inspiration of site: Hugo Bernier (https://tahoeninja.blog/)-->
+
     <meta property="docfx:navrel" content="{{_navRel}}">
     <meta property="docfx:tocrel" content="{{_tocRel}}">
     {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
     {{#_enableSearch}}<meta property="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
     {{#_enableNewTab}}<meta property="docfx:newtab" content="true">{{/_enableNewTab}}
+
+    <!-- Insert Clarity Header Here - set as property in DocFx config file -->
+
+
   {{/redirect_url}}
 </head>

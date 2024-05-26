@@ -44,7 +44,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/pnp"
     ],
     "sitemap": {
       "baseUrl": "https://pkbullock.github.io/pnp-docfx-theme/",
