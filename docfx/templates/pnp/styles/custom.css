@@ -14,3 +14,23 @@ html{
 .article {
     margin-top: 65px !important;
 }
+
+/* Aids for Stefen's styles integration */
+
+button.hamburger.show{
+    display: inline-flex !important;
+}
+
+.hamburger.show~#navbar .nav-menu {
+    display: flex;
+    visibility: visible;
+    height: 100svh;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px){
+    .hamburger.show~#navbar .nav-menu {
+        top: 75px;
+        right: 0;
+    }
+}

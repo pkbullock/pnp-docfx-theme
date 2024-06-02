@@ -1,6 +1,6 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 
-<ul class="nav level{{level}} nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
+<menu class="nav-level{{level}} nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
   {{#items}}
     {{^dropdown}}
       <li class="nav-item">
@@ -27,4 +27,4 @@
       </li>
     {{/dropdown}}
   {{/items}}
-</ul>
+</menu>
