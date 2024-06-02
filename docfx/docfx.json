@@ -24,7 +24,8 @@
         "files": [
           "assets/**",
           "404.html",
-          "images/**"
+          "images/**",
+          "samples.json"
         ]
       },
       {
