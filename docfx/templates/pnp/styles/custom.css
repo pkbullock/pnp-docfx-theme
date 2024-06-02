@@ -10,7 +10,14 @@
 html{
     font-size: 16px;
 }
-
+@media (min-width: 1200px){
+    .container {
+        width: 90%;
+    }
+    .section-grid.samples {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
 
 
 /* Aids for Stefen's styles integration */
@@ -36,6 +43,18 @@ button.hamburger.show{
         top: 75px;
         right: 0;
     }
+}
+
+.no-background{
+    background: none;
+}
+
+.blog-type .blog-cat {
+    margin-bottom: 1px;
+}
+
+.card.sample {
+    grid-template-rows: max-content;
 }
 
 /* Initive Styles */
