@@ -19,7 +19,7 @@ Nunc **viverra imperdiet** enim. _Fusce est._ Vivamus a tellus.
 - [List apps within Teams in a tenant](../scripts/teams-list-installed-apps/README.md)
 - [Get notified in Microsoft Teams about SharePoint health incidents](../scripts/tenant-health-notify-teams/README.md)
 
-## Sample Introduction
+<hr />
 
 ## Input Fields
 
@@ -28,6 +28,7 @@ Nunc **viverra imperdiet** enim. _Fusce est._ Vivamus a tellus.
 ## Cards
 
 
+<hr />
 
 ## Formatting Examples
 
