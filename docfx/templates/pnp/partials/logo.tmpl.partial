@@ -2,8 +2,8 @@
 
 <a href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}" class="site-logo-link">
   <div class="site-logo">
-    <span class="u-nowrap">Microsoft 365 &amp</span><br>
-    <span class="u-nowrap ff-pp">Power Platform</span><br>
-    <span class="u-nowrap ff-com">Community</span><br>
+    <span class="u-nowrap">Microsoft 365 &amp Power</span><br>
+    <span class="u-nowrap ff-pp">Platform Community</span><br>
+    <span class="u-nowrap ff-com">Script Samples</span><br>
   </div>
 </a>

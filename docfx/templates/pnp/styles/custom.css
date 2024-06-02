@@ -15,6 +15,12 @@ html{
     margin-top: 65px !important;
 }
 
+.site-logo .ff-com{
+    /* Check out the F12 tools for the colour palette */
+    color: var(--dark-teal);
+}
+
+
 /* Aids for Stefen's styles integration */
 
 button.hamburger.show{
@@ -34,3 +40,4 @@ button.hamburger.show{
         right: 0;
     }
 }
+
