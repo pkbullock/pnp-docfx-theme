@@ -486,6 +486,89 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "contributing/how-can-i-contribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/how-can-i-contribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/maintainers-guidance.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/maintainers-guidance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/merging-existing-project.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/merging-existing-project.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/preparing-a-submission.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/preparing-a-submission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/recognition.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/recognition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/submitting-pull-requests.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/submitting-pull-requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "contributing/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "contributing/toc.json"
+        },
+        ".html": {
+          "relative_path": "contributing/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "getting-started.md",
       "output": {
         ".html": {
@@ -580,6 +663,56 @@
       "output": {
         "resource": {
           "relative_path": "images/base-assets.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contributing/folder-structure-contributors.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contributing/folder-structure-contributors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contributing/folder-structure.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contributing/folder-structure.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contributing/image.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contributing/image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contributing/page-layouts.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contributing/page-layouts.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/contributing/ways-to-contribute.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/contributing/ways-to-contribute.png"
         }
       },
       "version": ""

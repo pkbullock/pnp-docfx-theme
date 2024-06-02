@@ -1,74 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/how-can-i-contribute.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/index.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/maintainers-guidance.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/merging-existing-project.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/preparing-a-submission.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/recognition.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://pkbullock.github.io/pnp-docfx-theme/contributing/submitting-pull-requests.html</loc>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/getting-started.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/index.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/modernize-blog-pages/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/modernize-bulk-publishing-pages/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/modernize-classic-pages-from-publishing-sites/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/spo-get-existing-site-structure/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/spo-get-folder-item/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/spo-get-sharinglinks/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/spo-repair-user-idmismatch/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/spo-trim-and-m365-archive-sitecollection/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/teams-list-installed-apps/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://pkbullock.github.io/pnp-docfx-theme/tenant-health-notify-teams/README.html</loc>
-    <lastmod>2024-06-02T05:51:39+00:00</lastmod>
+    <lastmod>2024-06-02T07:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
