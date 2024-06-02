@@ -3,9 +3,6 @@
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
 
-# Combine all the sample files into single file
-.\samples.ps1
-
 docfx build ./main/docfx/docfx.json --warningsAsErrors $args
 
 # Copy the created site to the pnpcoredocs folder (= clone of the gh-pages branch)

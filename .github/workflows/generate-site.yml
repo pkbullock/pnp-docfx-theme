@@ -38,6 +38,12 @@ jobs:
     - name: Install DocFX
       run: dotnet tool install -g docfx
 
+    # Combine all the sample files into single file
+    - name: Build docs
+      shell: pwsh
+      run: |
+        ./main/docfx/samples.ps1
+        
     # Build docs
     - name: Build docs
       shell: pwsh
