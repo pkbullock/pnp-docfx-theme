@@ -1,3 +1,5 @@
+Write-Host "Combining all sample.json files into a single file samples.json"
+
 # Get all sample.json files in scripts/<sample>/assets folders
 $jsonFiles = Get-ChildItem -Path ..\scripts -Filter sample.json -Recurse | Where-Object { $_.DirectoryName -like "*\assets" }
 
@@ -21,3 +23,5 @@ $combinedJson = $jsonContent | ConvertTo-Json -Depth 6
 
 # Write the combined json to a file
 $combinedJson | Out-File -FilePath .\samples.json
+
+Write-Host "Combined all sample.json files" -ForegroundColor Green
